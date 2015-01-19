@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow  android:id="@+id/tableRow1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/NumVaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUm.Vaca"
+        android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/DI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DI"
+        android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/DD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DD"
+        android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/TI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TI"
+        android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/TD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TD"
+        android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>
