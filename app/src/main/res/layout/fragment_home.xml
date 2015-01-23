@@ -9,7 +9,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="Conteo por Animal"
         android:id="@+id/button_conteoAnimal"
         android:background="@color/button_material_dark"
@@ -24,7 +24,7 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="Conteo por Cuarto"
         android:id="@+id/button_conteoCuarto"
         android:background="@color/button_material_dark"
@@ -39,7 +39,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="Acerca de"
         android:id="@+id/button_acercaDe"
         android:layout_alignParentBottom="true"
@@ -50,6 +50,15 @@
         android:background="@color/button_material_light"
         android:layout_marginBottom="5dp"
         android:elegantTextHeight="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp" />
 
 </RelativeLayout>
 
