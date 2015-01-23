@@ -10,5 +10,5 @@
     tools:context=".NavigationDrawerFragment"
     android:clickable="false"
     style="@style/AppTheme"
-    android:background="@drawable/fondo"
+    android:background="@drawable/bk_navegation"
     />
