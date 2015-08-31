@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.Toast;
 
 import com.lecheria.lecheria.R;
 
@@ -26,6 +27,7 @@ public class MainActivity extends ActionBarActivity
     private static final int OPCION_HOME = 0;
     private static final int OPCION_CONTEO_ANIMAL = 1;
     private static final int OPCION_CONTEO_CUARTO = 2;
+    private static final int OPCION_MANTENIMIENTO_VACAS = 3;
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -68,6 +70,9 @@ public class MainActivity extends ActionBarActivity
             case OPCION_CONTEO_CUARTO:
                 currentFragment = new ConteoCuartoFragment();
                 break;
+            case OPCION_MANTENIMIENTO_VACAS:
+                currentFragment = new MantenimientoVacas();
+                break;
             default:
                 currentFragment = new HomeFragment();
                 break;
@@ -94,6 +99,9 @@ public class MainActivity extends ActionBarActivity
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
                 break;
         }
     }
@@ -172,6 +180,11 @@ public class MainActivity extends ActionBarActivity
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+        public void onMyButtonClick(View view)
+        {
+            String x="hola";
+        }
+
     }
 
 }
