@@ -5,10 +5,14 @@
     <string name="title_section1">Home</string>
     <string name="title_section2">Conteo por Animal</string>
     <string name="title_section3">Conteo por cuarto</string>
+    <string name="title_section4">Mantenimiento de Vacas</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="cancel">Cancelar</string>
 
 </resources>
